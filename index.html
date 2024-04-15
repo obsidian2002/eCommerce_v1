@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an eCommerce website named Potato Express">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/6de2594102.js" crossorigin="anonymous"></script>
+    <title>Potato Express</title>
+</head>
+<body>
+    <!-- nav start -->
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav id="menu"  class="hidden">
+       
+        <ul class="nav-upper flex">
+            
+            <li class="nav-list ">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="offers.html" class="nav-link">Offers</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="signup.html" class="nav-link">Signup</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" class="nav-link">
+                    <img src="./images/profile_icon.png" class="profile-icon" alt="profile-logo">
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-lower flex ">
+            <li class="nav-list flex">
+                <img src="/icons/android-chrome-192x192.png" class="brand-logo" alt="potato_express">
+                <a href="" class="nav-link brand-title">Potato Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="" class="nav-link">Cart : 2 Item (319$)</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- nav end -->
+    <div class="current-page">
+        <p disabled> >>Home</p>
+    </div>
+    <div class="main">
+       <!----------------- left start ---------------------->
+       <div class="left">
+        <div class="categories">
+            <h2>Categories</h2>
+            <div class="smartphone">
+                <input type="checkbox" name="smartphone" id="smartphone" value="Smartphone"> 
+            <label for="smartphone">Smartphone</label>
+            </div>
+            <div class="headphone">
+                <input type="checkbox" name="headphone" id="headphone" value="Headphone">
+            <label for="headphone">Headphone</label>
+            </div>
+           <div class="laptop">
+            <input type="checkbox" name="laptop" id="laptop" value="Laptop">
+            <label for="laptop">Laptop</label>
+           </div>
+            <div class="computer">
+                <input type="checkbox" name="computer" id="computer" value="Computer">
+            <label for="computer">Computer</label>
+            </div>
+            <div class="watch">
+                <input type="checkbox" name="watch" id="watch" value="Watch">
+                <label for="watch">Watch</label>
+            </div>
+        </div>
+        <div class="price-range">
+            <h2>Price Range</h2>
+            
+           <div class="price1">
+            <input type="radio" name="price" value="0-49" id="radio-p1"><label for="radio-p1">$0-49</label>
+           </div>
+           <div class="price2">
+            <input type="radio" name="price" value="49-149" id="radio-p2"><label for="radio-p2">$49-149</label>
+           </div>
+           <div class="price3">
+            <input type="radio" name="price" value="150-249" id="radio-p3"> <label for="radio-p3">$150-249</label>
+           </div>
+        </div>
+        <div class="shipping-options">
+            <h2>Shipping Options</h2>
+           <div class="free-ship">
+            <input type="radio" name="shipping" id="radio-s1">
+            <label for="radio-s1">Free Shipping</label>
+           </div>
+           <div class="paid-ship">
+            <input type="radio" name="shipping" id="radio-s2">
+            <label for="radio-s2">Paid Shipping</label>
+           </div>
+        </div>
+    </div>
+    
+        <!---------------------------- left end ---------------------->
+        <!---------------------------- right start ---------------------->
+
+        <div class="right">
+            <div class="upper-option">
+                <div class="sort">
+                    <label for="sort">Sort By</label>
+                    <select>
+                        <option value="top-rated">Top Rated</option>
+                        <option value="most-sold">Most Sold</option>
+                        <option value="least-sold">Least Sold</option>
+                        <option value="highest-price">Highest Price</option>
+                        <option value="cheapest-price">Cheapest Price</option>
+                    </select>
+                </div>
+                <div class="product-search">
+                    <input type="text" name="search-product" placeholder="Search Product">
+                    <button id="search-btn"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="products">
+
+                <!-- product 1 -->
+                
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>6 in Stock</p>
+                        <hr>
+                        <p>94 Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/images/products/timex-men.jpg" alt="seiko spart15">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Times Men's Easy Reader</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>$66.99</p>
+                        <p>4.59 out of 5(23)</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div> 
+                    <!-- product 1  end--> 
+
+
+                    <!-- product 2 -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>21 in Stock</p>
+                        <hr>
+                        <p>29 Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/images/products/samsung_s24.jpg" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Samsung Galaxy S24</h3>
+                        <p>12/512 ,50MP Camera ,US Version <a href="http://">Learn more</a></p>
+                        <p>$865</p>
+                        <p>4.63 out of 5(11)</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+
+                      <!-- product 2 end -->
+
+                      <!-- product 3 -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>07 in Stock</p>
+                        <hr>
+                        <p>03 Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/images/products/gigabyte aero 16_.jpg" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gigabyte AERO 16</h3>
+                        <p>32/1024 ,16" 4K OLED ,RTX 4070<a href="http://">Learn more</a></p>
+                        <p>$1999</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+
+
+                   <!-- product 3 end -->
+                    <!-- product 4 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>02 in Stock</p>
+                        <hr>
+                        <p>18 Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/images/products/dell_optixlex_13500.jpg" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Dell Optixlex 13500</h3>
+                        <p>32/512 DDR4 ,NVMe SSD ,Wi-Fi ,Windows 11 <a href="http://">Learn more</a></p>
+                        <p>$899</p>
+                        <p>3.89 out of 5(8)</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 4 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="/images/products/Thermaltake LCGS Quartz i460 R4.jpg" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>TL Quartz i460 R4</h3>
+                        <p>16/512 ,i5-13400F RTX 4060 <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 5 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+
+                 <!-- product 6 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 6 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 7 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Google Pixel 7a</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 8 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 9 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                 <!-- product 10 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                     <!-- product 11 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+                     <!-- product 12 start -->
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+
+                     <!-- product 13 start -->
+
+                <div class="product-box">
+                    <div class="sticky-box">
+                        <p>## in Stock</p>
+                        <hr>
+                        <p>## Sold</p>
+                    </div>
+                    <div class="product-img">
+                        <img src="" alt="">
+                    </div>
+                    <div class="product-box-inside">
+                        <h3>Gadget Name</h3>
+                        <p>Description.. <a href="http://">Learn more</a></p>
+                        <p>price $$$</p>
+                        <p>Rating</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>  
+
+            </div>
+        </div>
+
+         <!---------------------------- right start ---------------------->
+    </div>
+
+     <!-- footer start -->
+
+    <footer class="footer flex">
+        <li class="nav-list">
+            <a class="nav-link" href="">Subscribe To Newsletter</a>
+        </li>
+        <li class="nav-list">
+            <input type="email" placeholder="Your Email Address">
+            <button class="submit-mail-btn" type="submit">Submit</button>
+        </li>
+        <li class="nav-list">
+            <p class="nav-link">Copyright &copy2024 Potato Express.All Right Resolved</p>
+        </li>
+    </footer>
+    <script src="/script/script.js"></script>
+
+    <!-- footer end -->
+</body>
+
+
+</html>
