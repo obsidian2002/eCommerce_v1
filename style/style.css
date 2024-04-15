@@ -264,3 +264,187 @@ nav {
     }
 
 }
+
+
+/*---------------------------signup---------------------------------------- */
+
+
+
+.form-container-su {
+    min-height: 500px;
+    width: auto;
+    position: relative;
+
+    background-image: url(/images/lawn_forest_mountains_144578_3840x2160.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+
+
+}
+
+.form-container-su .box-su {
+
+    height: 340px;
+    width: 530px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+
+    filter: opacity(0.85);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.box-su h1 {
+    margin: 1.8rem 0rem 1.6rem 0rem;
+    color: darkslategray;
+}
+
+.box-su .name input {
+    margin-left: 4rem;
+    padding: 0.2rem 2.5rem;
+    border-radius: 4px;
+    border: 1px solid #7e7e7e;
+    margin-top: 0.6rem;
+
+}
+
+.box-su .email input {
+    margin-left: 3.3rem;
+    padding: 0.2rem 2.5rem;
+    border-radius: 4px;
+    border: 1px solid #7e7e7e;
+    margin-top: 0.4rem;
+
+}
+
+.box-su .password input {
+    margin-left: 1.45rem;
+    padding: 0.2rem 2.5rem;
+    border: 1px solid #7e7e7e;
+    border-radius: 4px;
+    margin-top: 0.4rem;
+}
+
+.box-su .text-box label {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    display: inline-block;
+
+}
+
+.box-su .text-box textarea {
+    margin-left: 6rem;
+    padding: 0.2rem 2.7rem;
+    border-radius: 4px;
+    border: 1px solid #7e7e7e;
+    margin-top: 0.4rem;
+
+}
+
+.box-su .submit {
+    display: block;
+    margin: auto;
+    margin-top: 0.4rem;
+    background-color: rgb(80, 185, 152);
+    padding: 0.25rem 1.5rem;
+    border-radius: 0.6rem;
+    border: 1px solid #7e7e7e;
+    opacity: 0.7;
+}
+
+.box-su label {
+    font-size: 1.15rem;
+    color: #7e7e7e;
+}
+
+.box-su .email,
+.box-su .password,
+.box-su .name {
+    margin: 0.3rem 0rem 0.3rem 5rem;
+}
+
+
+/* ----------------------------------------login----------------------------- */
+
+/* login page start */
+
+.form-container {
+    min-height: 400px;
+    width: auto;
+    position: relative;
+    background-image: url(/images/Forest_landscape_generated.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.form-container .box {
+
+    height: 250px;
+    width: 460px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    background-position: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box h1 {
+    margin: 1.8rem 0rem 1.6rem 0rem;
+    color: darkslategray;
+}
+
+.box .email input {
+    margin-left: 2.3rem;
+    padding: 0.2rem 2.5rem;
+    border-radius: 4px;
+    border: 1px solid #7e7e7e;
+    margin-top: 0.4rem;
+
+}
+
+.box .password input {
+    margin-left: 0.45rem;
+    padding: 0.2rem 2.5rem;
+    border: 1px solid #7e7e7e;
+    border-radius: 4px;
+    margin-top: 0.7rem;
+}
+
+.box .submit {
+    display: block;
+    margin: auto;
+    margin-top: 1.4rem;
+    background-color: aquamarine;
+    padding: 0.25rem 1.6rem;
+    border-radius: 0.6rem;
+    border: 1px solid #7e7e7e;
+}
+
+.box label {
+    font-size: 1.15rem;
+    color: #7e7e7e;
+}
+
+.box .email,
+.box .password {
+    margin: 0.3rem 0rem 0.3rem 2rem;
+}
+
+/* login page end */
