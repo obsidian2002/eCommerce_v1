@@ -275,7 +275,7 @@ nav {
     width: auto;
     position: relative;
 
-    background-image: url(/images/lawn_forest_mountains_144578_3840x2160.jpg);
+    background-image: url(../images/lawn_forest_mountains_144578_3840x2160.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 60%;
@@ -381,7 +381,7 @@ nav {
     min-height: 400px;
     width: auto;
     position: relative;
-    background-image: url(/images/Forest_landscape_generated.jpg);
+    background-image: url(../images/Forest_landscape_generated.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
